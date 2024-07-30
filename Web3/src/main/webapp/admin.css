@@ -1,0 +1,138 @@
+.nav-link{
+    color: #ffffff;
+}
+.nav-chose{
+    font-weight: bold;
+    padding-right: 20px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.menu-content{
+    position: relative;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 800px;
+    grid-template-areas: 
+        "Menu Show Show Show Show Show Show Show Show Show Show Show"
+    ;
+    z-index: 99;
+}
+.form-menu{
+    grid-area: Menu;
+    background-color: #c7c7c7c8;
+    padding: 20px;
+    border-right:1px solid #c7c7c7c8 ;
+    border-radius: 5px;
+    position: fixed;
+    top: 150px;
+    left: 0;
+   
+}
+.fo{
+    margin: 0 20px 20px 0;
+    cursor: pointer;
+    list-style-type: none;
+    font-weight: bold;
+}
+.show-form-menu{
+    grid-area: Show;
+}
+.form-menu-child{
+    display: none;
+    list-style-type: none;
+    font-weight: normal;
+}
+.child-item{
+    font-size: 15px;
+    margin: 10px;
+    border-bottom: 1px solid #c7c7c7c8;
+}
+.child-item:hover{
+    color: cadetblue;
+}
+.form-menu-child.active {
+    display: block; 
+}
+#trang-chu{
+    display: block;
+}
+/* .show-form-menu .sho {
+    display: none;
+  } */
+.show-form-menu .show-item {
+    display: none;
+}
+.show-item {
+    padding: 20px;
+}
+.al{
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.home-admin{
+    border-radius: 10px;
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* .form-menu-danh-muc-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-right: 1px solid #c7c7c7c8;
+    border-radius: 5px;
+} */
+.inn{
+    background-color: #c7c7c7c8;
+}
+.show-item {
+    width: 100%;
+}
+
+.infor-text, .detailed-text {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.infor, .infor-detailed {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
